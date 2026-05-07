@@ -218,7 +218,7 @@ function renderAbout(){
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-style: italic;">Database to Dashboard</em>. SAP, Power BI, Tableu or whatever the stack needs. Three countries, one standard: the numbers have to be right.</p>
+  font-style: italic;">Database to Dashboard</em>. SAP, Power BI, Tableu or whatever the stack needs. Three countries, one standard - the numbers have to be right.</p>
     <div class="about-grid">
       <div class="card">
         <h3>What I do well</h3>
