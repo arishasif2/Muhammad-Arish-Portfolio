@@ -9,14 +9,14 @@ const projects = [
   },
   { slug:"nema-ceo-dashboards", name:"NEMA CEO Dashboards", tag:"Executive BI",
     desc:"Real-time KPI dashboards built directly for executive decision-making.",
-    problem:"Leadership lacked a single, trustworthy view of company-wide KPIs and had to wait on weekly slide decks.",
-    approach:["Interviewed CEO & department heads to align on the 8 KPIs that actually drive decisions.","Built a curated semantic model with row-level security per business unit.","Designed a calm, glanceable executive layout: one screen, no tabs."],
+    problem:"Leadership lacked a single, trustworthy view of company wide KPI's and had to wait on weekly slide decks.",
+    approach:["Interviewed CEO & department heads to align on the 8 KPI's that actually drive decisions.","Built a curated semantic model with row-level security per business unit.","Designed a calm, glanceable executive layout: one screen, no tabs."],
     impact:["Cut decision-cycle time on weekly reviews from days to minutes.","Replaced 3 recurring manual reports."],
     stack:["Power BI","DAX","Power Query","RLS"]
   },
   { slug:"otif-sales", name:"OTIF Sales Dashboard", tag:"ABAP · SD",
     desc:"Automated On-Time In-Full reporting native to the SAP SD module.",
-    problem:"OTIF was tracked in spreadsheets pieced together from VBAK/VBAP exports — slow, error-prone, and weeks behind reality.",
+    problem:"OTIF was tracked in spreadsheets pieced together from VBAK/VBAP exports: slow, error prone and weeks behind reality.",
     approach:["Wrote ABAP logic in the SD module to compute OTIF directly against live tables.","Built ALV output with drilldown to delivery, customer and material.","Scheduled background jobs to push results into the analytics layer."],
     impact:["Removed manual weekly OTIF preparation entirely.","Improved fulfilment tracking accuracy and timeliness."],
     stack:["SAP ABAP","SD Module","ALV","Background Jobs"]
@@ -30,8 +30,8 @@ const projects = [
   },
   { slug:"finance-scorecard", name:"Finance Performance Scorecard", tag:"Power BI",
     desc:"Department-level scorecards on budgets, expenses and profitability.",
-    problem:"Finance lacked drillable views from group-level P&L down to department spend without exporting to Excel.",
-    approach:["Conformed the chart of accounts into an analytics-friendly model.","Built scorecard pages per department with variance-to-budget visuals.","Added drill-through pages exposing line-level detail."],
+    problem:"Finance lacked drillable views from group level P&L down to department spend without exporting to Excel.",
+    approach:["Confirmed the chart of accounts into an analytics friendly model.","Built scorecard pages per department with variance-to-budget visuals.","Added drill-through pages exposing line-level detail."],
     impact:["Faster month-end review with fewer ad-hoc requests to finance.","Variance to budget visible without exporting to Excel."],
     stack:["Power BI","DAX","Star Schema"]
   },
@@ -48,7 +48,7 @@ const experience = [
   { company:"Data Graders", role:"Data Analyst (SAP Analyst)", period:"Apr 2023 — Present", location:"Lahore, PK",
     points:[,"Built 10+ custom ABAP reports, ALV dashboards and CDS views: ~30% faster turnaround.","Automated OTIF sales reporting: eliminated 5 hrs/week of manual effort.","Delivered analytics for Al-Romaih Group (KSA) supply chain decisions.","Designed reusable CDS view semantic layer: cut duplicated logic ~40%.","Exposed SAP backend via OData for live business access."]},
   { company:"Zarbsol", role:"Data Analyst", period:"Mar 2022 — Mar 2023", location:"Remote · US",
-    points:["Defined KPIs and shipped Power BI solutions aligned with strategy.","Built optimized star-schema semantic models with DAX: up to 25% faster.","Applied DAX optimization, query folding, incremental refresh.","Authored Power Query workflows for audit-ready outputs."]}
+    points:["Defined KPIs and shipped Power BI solutions aligned with the US client.","Built optimized star-schema semantic models with DAX: up to 25% faster.","Applied DAX optimization, query folding, incremental refresh.","Authored Power Query workflows for audit-ready outputs."]}
 ];
 
 const skills = {
